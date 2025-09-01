@@ -1,2 +1,10 @@
 .env
 requirements-dev.txt
+recreate_database.py
+debug_endpoints.py
+reset_database.py
+test_api.py
+test_chat_system.py
+test_complete_phase4.py
+test_models.py
+test_phase2.py
