@@ -6,6 +6,9 @@ services:
     plan: free  # Change to 'starter' for $7/month always-on
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    build:
+      environment:
+        pythonVersion: 3.10.18
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -20,7 +23,7 @@ services:
   - type: pserv
     name: chatbot-db
     plan: free
-    
+
   # Static Frontend (Free)
   - type: static
     name: chatbot-frontend
