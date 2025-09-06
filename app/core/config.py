@@ -173,7 +173,7 @@ class DevelopmentSettings(Settings):
     )
 
 class ProductionSettings(Settings):
-    DEBUG: bool = True
+    DEBUG: bool = False
     LOG_LEVEL: str = "WARNING"
     CORS_ORIGINS: List[str] = Field(default_factory=list)  # Must be set explicitly
     
