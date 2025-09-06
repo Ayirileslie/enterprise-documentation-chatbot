@@ -1,5 +1,11 @@
 # Company Knowledge Chatbot 🤖
 
+## Screenshots
+
+### Main Chat Interface
+![Chat Interface](docs/images/chat-interface.png)
+*Clean, intuitive chat interface with conversation history*
+
 An intelligent, enterprise-grade chatbot that enables employees to query company documentation using natural language. Built with modern Python frameworks and production-ready architecture.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
@@ -7,7 +13,20 @@ An intelligent, enterprise-grade chatbot that enables employees to query company
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Live-brightgreen.svg)](https://your-demo-url.com)
 
-## 🚀 Overview
+## 🌐 Live Demo
+
+**Frontend (User Interface)**: https://company-frontend-3etq.onrender.com/
+**API Documentation**: https://enterprise-documentation-chatbot.onrender.com/docs
+**Backend Health Check**: https://enterprise-documentation-chatbot.onrender.com/health
+
+> **Note**: Replace `XXXXX` with your actual Render service names after deployment
+
+### Quick Demo Steps
+1. Visit the frontend link above
+2. Enter email: `demo@company.com`
+3. Upload the sample document from `docs/sample_documents/`
+4. Ask: "What's our remote work policy?"
+5. See AI response with source citations
 
 This chatbot transforms how organizations handle internal knowledge management by providing instant, accurate answers to employee questions about company policies, procedures, and documentation. Instead of searching through folders or bothering colleagues, employees can simply ask questions in natural language.
 
@@ -87,8 +106,8 @@ Future Microservices:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/company-chatbot.git
-cd company-chatbot
+git clone https://github.com/Ayirileslie/enterprise-documentation-chatbot.git
+cd enterprise-documentation-chatbot
 
 # Create virtual environment
 python -m venv venv
